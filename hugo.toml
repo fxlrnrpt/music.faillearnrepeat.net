@@ -1,0 +1,11 @@
+baseURL = 'https://music.faillearnrepeat.net/'
+languageCode = 'en-us'
+title = 'Andrey Goncharov | Music'
+theme = "LucentLink-Hugo"
+
+
+[params]
+description = "Secret rock star wannabe | AI researcher"
+
+[outputs]
+home = ["HTML"]

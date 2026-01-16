@@ -1,0 +1,18 @@
+<div class="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-4 px-4">
+  {{ range .Params.links }}
+
+  <a
+    href="{{ .href }}"
+    class="block link-card p-4 flex flex-col items-center justify-center h-full w-full sm:w-auto"
+  >
+    <div class="w-10 h-10 flex items-center justify-center">
+      <i class="{{ .icon }} icon text-xl"></i>
+    </div>
+    <div class="text-center">
+      <h3 class="font-medium">{{ .title }}</h3>
+      <p class="text-sm opacity-70">{{ .description }}</p>
+    </div>
+  </a>
+
+  {{ end }}
+</div>
