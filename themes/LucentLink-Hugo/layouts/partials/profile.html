@@ -10,7 +10,7 @@
     <h1 class="text-3xl font-bold mb-2 text-center" style="color: var(--text-color)">
       {{ .Params.name }}
     </h1>
-    <p class="text-center opacity-80 mb-6">{{ .Params.description }}</p>
+    <p class="text-center opacity-80 mb-6 w-full max-w-[600px]">{{ .Params.description }}</p>
   
     <div class="flex flex-wrap justify-center gap-4 mb-8 social-icons">
       {{ range .Params.socials }}
